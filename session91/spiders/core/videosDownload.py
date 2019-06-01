@@ -21,7 +21,6 @@ class ProgressBar(object):
         self.fin_status = fin_status or " " * len(self.statue)
         self.unit = unit
         self.seq = sep
-        self.log = LogHandler(__class__)
     
     def __get_info(self):
         # 【名称】状态 进度 单位 分割线 总数 单位

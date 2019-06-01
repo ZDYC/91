@@ -1,5 +1,6 @@
 import re
 import os
+import platform
 from random import choice
 from contextlib import closing
 
@@ -18,7 +19,7 @@ class Spider91(object):
         self.identityCode = identityCode
         self.log = log
         self.__initParams__()
-    
+
     def __initParams__(self):
         self.session = requests.Session()
         self.update_session()   
@@ -156,4 +157,4 @@ class Spider91(object):
                     if video_url:
                         self.log.info(video_url[0])
                         self.urlManger.add(video_url[0])
-                        # self.videosDownload.downloads()
+                        self.videosDownload.download_one(video_url[0], title)
