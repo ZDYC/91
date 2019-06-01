@@ -2,12 +2,12 @@ import sys
 sys.path.append('.')
 sys.path.append('..')
 
-from porn91Session.spiders.core.spider import Spider91
-from porn91Session.spiders.core.urlManger import UrlManger
-from porn91Session.spiders.core.videosDownload import VideosDownload
-from porn91Session.spiders.utils.identityCode import IdentityCode
-from porn91Session.spiders.utils.logHandler import LogHandler
-from porn91Session.spiders.core.config import CODE_INFO as info
+from session91.spiders.core.spider import Spider91
+from session91.spiders.core.urlManger import UrlManger
+from session91.spiders.core.videosDownload import VideosDownload
+from session91.spiders.utils.identityCode import IdentityCode
+from session91.spiders.utils.logHandler import LogHandler
+from session91.spiders.core.config import CODE_INFO as info
 
 
 def main():
