@@ -4,7 +4,7 @@ from concurrent import futures
 
 import requests
 
-from .config import PROXIES
+# from .config import PROXIES
 
 class ProgressBar(object):
     """

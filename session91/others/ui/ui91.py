@@ -1,7 +1,11 @@
 import asyncio
+import sys
 # from spiders import run
 
+sys.path.append('.')
+sys.path.append('..')
 from mainWindow import Ui_porn91
+import test2
 
 from PyQt5 import QtWidgets
 import aiohttp
