@@ -18,7 +18,7 @@ CATEGORY = ['hot', 'mf', 'top']
 # 蓝灯本地代理 windos下port为50106 linux下为39521
 SERVER = 'http://127.0.0.1'
 
-PORT = '50106' if os.name == 'nt' else '39521'
+PORT = '50106' if os.name == 'nt' else '51018'
 
 PROXIES = {
     'http': SERVER + ':' + PORT,
