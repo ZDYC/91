@@ -108,3 +108,4 @@ Pipfile
 Pipfile.lock
 .vscode/settings.json
 vCode.png
+.DS_Store
